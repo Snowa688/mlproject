@@ -1,0 +1,4 @@
+import joblib
+
+model = joblib.load("C:\mlproject\artifacts\model.pkl")
+print(model)
